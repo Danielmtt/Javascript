@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+   
+    <header><h1>Consulte a idade digitando o ano</h1></header>
+    
+    <section>
+        
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="textano" id="textano">
+            </p>
+
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="masc">Feminino</label>
+
+            </p>
+            <img id="Imagem" src="" alt="">
+            <p>
+                <input type="button" value="Verificar" id="botao" onclick="verificar()">
+            </p>
+        </div>
+        <img src="../site2/fotos/" alt="">
+
+        <div id="res">
+            <p>Preencha os dados acima para ver os dados.</p>
+        </div>
+
+    </section>
+    
+    <footer><p>copyright Daniel</p></footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

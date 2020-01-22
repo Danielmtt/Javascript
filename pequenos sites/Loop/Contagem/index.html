@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contagem</title>
+</head>
+<body>
+    <header><h1>Contagem</h1></header>
+    
+    <section>
+        
+        <div id="msg">
+            <h2>Preencha os valores para a contagem</h2>
+        </div>
+        
+        <input class="entrada" type="number" name="minimo" id="minimo" placeholder="Inicio">
+        <input class="entrada" type="number" name="maximo" id="maximo" placeholder="Valor final da Contagem"><br>
+        <input class="entrada" type="number" name="passo" id="passo" placeholder="Passo"><br>
+
+        <input type="button" id="botao" value="Contar" onclick="contar()">
+
+    </section>
+    <div id="contagem">
+        
+    </div>
+    
+    <footer><p>copyright Daniel</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
